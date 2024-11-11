@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
+    <script type="module" src="script.js" defer></script>
+   
+    <title>Trabalho Final</title>
+</head>
+<body>
+    <div id="home">
+        <header>
+
+            <div class="logoHeader">
+                <a href=""><img src="cabistore2.jpeg" id="logo"></a>
+            </div>  
+
+                <nav class="navBar">
+                        <a href="index.html" target="_self">Home</a>
+                        <a href="/Contato/index.html" target="_self">Contato</a>
+                        <a href="https://www.instagram.com/vitorserrao_" target="_blank">Instagram</a>
+                        <a href="/Informações/index.html" target="_self">Sobre a Loja</a>
+                </nav>
+
+                <div class="topIcons">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+
+                  <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+
+                  
+                    <button class="modal-btn"><a href=""><i class="fa-solid fa-user"></i></a></button> 
+                </div>   
+        </header>
+        <div class="slider"> 
+
+            <div class="slide active">
+
+              <img src="cris.jpeg" alt="">
+              <div class="info">
+                <a href="#conteudo"><button class="botao-slide"><p class="letra-botao">COMPRE AGORA!</p></button></a>
+              </div>
+            </div>
+
+            <div class="slide">
+              <img src="messi.jpeg" alt="">
+              <div class="info">
+                <a href="#conteudo"><button class="botao-slide"><p class="letra-botao">COMPRE AGORA!</p></button></a>
+              </div>
+            </div>
+
+            <div class="slide">
+              <img src="ney.jfif" alt="">
+              <div class="info">
+                <a href="#conteudo"><button class="botao-slide"><p class="letra-botao">COMPRE AGORA!</p></button></a>
+              </div>
+            </div>
+
+            <div class="navigation">
+              <i class="fas fa-chevron-left prev-btn"></i>
+              <i class="fas fa-chevron-right next-btn"></i>
+            </div>
+
+            <div class="navigation-visibility">
+              <div class="slide-icon active"></div>
+              <div class="slide-icon"></div>
+              <div class="slide-icon"></div>
+            </div>
+          </div>
+
+
+            <div id="conteudo"> <!--Produtos  Site-->
+
+                <div id="primeira-linha">
+                    <div class="box">
+                      <button class="compra-btn" data-imagem="atheticopr.png" data-titulo="Camiseta Athético PR"><img src="atheticopr.png"></button>
+                    </div>
+                    <div class="box">
+                      <button class="compra-btn" data-imagem="atleticogo.jpg" data-titulo="Camiseta Atlético Go"><img src="atleticogo.jpg"></button>
+                    </div>
+                    <div class="box">
+                      <button class="compra-btn" data-imagem="atleticomg.jfif" data-titulo="Camiseta Atlético MG"><img src="atleticomg.jfif"></button>
+                    </div>
+                    <div class="box">
+                      <button class="compra-btn" data-imagem="bahia.jpg" data-titulo="Camiseta Bahia"><img src="bahia.jpg"></button>
+                    </div>
+
+                </div>
+
+                <div class="legenda">
+                  <p>Camiseta Athlético PR<br>R$ 199,00</p>
+                  <p>Camiseta Atlético GO<br>R$ 199,00</p>
+                  <p>Camiseta Atlético MG<br>R$ 500,00</p>
+                  <p>Camiseta Bahia <br>R$ 299,00</p>
+                </div>
+
+                <div class="molduras">
+                  <div class="box">
+                    <button class="compra-btn" data-imagem="botafogo.jfif" data-titulo="Camiseta Botafogo"><img src="botafogo.jfif"></button>
+                  </div>
+                  <div class="box">
+                    <button class="compra-btn" data-imagem="Bragantino.jfif" data-titulo="Camiseta Bragantino"><img src="bragantino.jfif"></button>
+                  </div>
+                  <div class="box">
+                    <button class="compra-btn" data-imagem="chapecoense.jpeg" data-titulo="Camiseta Chapecoense"><img src="chapecoense.jpeg"></button>
+                  </div>
+                  <div class="box">
+                    <button class="compra-btn" data-imagem="corinthians.jpeg" data-titulo="Camiseta Corinthians"><img src="corinthians.jpeg"></button>
+                  </div>
+
+                </div>
+                <div class="legenda">
+                  <p>Camiseta Botafogo<br>R$ 280,00</p>
+                  <p>Camiseta Bragantino<br>R$ 149,00</p>
+                  <p>Camiseta Chapecoense<br>R$ 360,00</p>
+                  <p>Camiseta Corinthians<br>R$ 349,00</p>
+                </div>
+
+                <div class="molduras">
+                  <div class="box">
+                    <button class="compra-btn" data-imagem="cruzeiro.jfif" data-titulo="Camisa Cruzeiro"><img src="cruszeiro.jfif"></button>
+                  </div>
+                  <div class="box">
+                    <button class="compra-btn" data-imagem="flamengo.png" data-titulo="Camiseta Flamengo"><img src="flamengo.png"></button>
+                  </div>
+                  <div class="box">
+                    <button class="compra-btn" data-imagem="fluminense.jfif" data-titulo="Camiseta Fluminense"><img src="fluminense.jfif"></button>
+                  </div>
+                  <div class="box">
+                    <button class="compra-btn" data-imagem="gremio.png" data-titulo="Camiseta Grêmio"><img src="gremio.png"></button>
+                  </div>
+
+                </div>
+
+                <div class="legenda">
+                  <p>Camiseta Cruzeiro<br>R$ 200,00</p>
+                  <p>Camiseta Flamengo<br>R$ 299,00</p>
+                  <p>Camiseta Fluminense<br>R$ 255,00</p>
+                  <p>Camiseta Grêmio<br>R$ 380,00</p>
+                </div>
+
+            </div>
+
+        </div><!--Produtos do Site-->
+    <div id="footer">
+      </div>
+      <div class="info-footer">  
+    </div><!--Fecha footer-->
+    <!--Modal Registro-->
+    <div class="modal-bg">
+      <div class="modal">
+        <h2>Cadastre-se</h2>
+        <label for="name">Nome: </label>
+        <input type="text" name="nome-r">
+        <label for="email-r">Email: </label>
+        <input type="email" name="email-r">
+        <label for="Senha:">Senha: </label>
+        <input type="password" name="senha-r">
+        <button id="registro-btn">Enviar</button>
+        <span class="modal-close">X</span>
+      </div>
+    </div>
+
+    <!--Modal Compra-->
+    <dialog class="dialog-compra">
+      <div class="compra-bg">
+
+        <div class="compra-modal">
+
+          <div class="img-compra">
+            <img id="modal-imagem" src="suacompra.png" alt="">
+          </div>
+
+          <div class="conteudo-compra">
+            <h2 class="h2-compra" id="modal-titulo">Camiseta Time da sua escolha</h2>
+
+            <p class="p-compra">Camisa oficial de time de futebol, feita com tecido leve e respirável, garantindo conforto durante todo o jogo. Design exclusivo, com detalhes do clube, como escudo bordado e logotipo da patrocinadora. Perfeita para mostrar sua paixão pela equipe, seja no estádio, em casa ou no dia a dia.</p>
+
+            <div class="tamanho">
+
+              <div class="p">
+                <input type="radio" name="tamanho" value="P" id="tamanho-p" checked>
+                <label for="tamanho-p">P</label>
+              </div>
+
+              <div class="m">
+                <input type="radio" name="tamanho" value="M" id="tamanho-m">
+                <label for="tamanho-m">M</label>
+              </div>
+
+              <div class="g">
+                <input type="radio" name="tamanho" value="G" id="tamanho-g">
+                <label for="tamanho-g">G</label>
+              </div>  
+
+              <div class="gg">
+                <input type="radio" name="tamanho" value="GG" id="tamanho-gg">
+                <label for="tamanho-gg">GG</label>
+              </div>
+            </div>
+
+            <div class="quantidade">
+              <span class="menos">-</span>
+              <span class="num">01</span>
+              <span class="mais">+</span>
+            </div> 
+
+            <button id="addcart-btn">Adicionar ao carrinho</button>
+
+            
+
+
+        </div>
+      </div>
+
+    </dialog>
+
+</body>
+</html>

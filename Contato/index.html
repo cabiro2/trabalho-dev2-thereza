@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
+    <script type="module" src="script.js" defer></script>
+    <title>Trabalho Final</title>
+</head>
+<body>
+    <div id="home">
+        <header>
+
+            <div class="logoHeader">
+                <a href=""><img src="cabistore.jpeg" id="logo"></a>
+            </div>  
+
+                <nav class="navBar">
+                  <a href="/Home/index.html" target="_self">Home</a>
+                  <a href="/Contato/contato.html" target="_self">Contato</a>
+                  <a href="https://www.instagram.com/vitorserrao_" target="_blank">Instagram</a>
+                  <a href="/Informações/index.html" target="_self">Sobre a Loja</a>
+                </nav>
+
+                <div class="topIcons">
+                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+
+                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+
+                    <button class="modal-btn"><a href=""><i class="fa-solid fa-user"></i></a></button>
+                </div>   
+        </header>
+        <div class="content">
+
+          <p id="titulo">CONTATO</p>
+
+          <div class="info">
+
+              <form id="form" class="form">
+                <div class="form-control">
+                  <label for="username"></label>
+                  <input type="text"  
+                  id="username"
+                  placeholder="Nome"/>
+                  <i class="fas fa-exclamation-circle"></i>
+                  <i class="fas fa-check-circle"></i>
+                  <small>Mensagem de erro</small> 
+                </div>
+
+                <div class="form-control">
+                  <label for="email"></label>
+                  <input type="text"  
+                  id="email"
+                  placeholder="Email"/>
+                  <i class="fas fa-exclamation-circle"></i>
+                  <i class="fas fa-check-circle"></i>
+                  <small>Mensagem de erro</small> 
+                </div>
+
+                <div class="form-control">
+                  <label for="assunto"></label>
+                  <input type="text"  
+                  id="assunto"
+                  placeholder="Assunto"/>
+                  <i class="fas fa-exclamation-circle"></i>
+                  <i class="fas fa-check-circle"></i>
+                  <small>Mensagem de erro</small> 
+                </div>
+
+                <div class="form-control">
+                  <label for="textarea"></label>
+                  <input type="text"  
+                  id="textarea"
+                  placeholder="Mensagem"/>
+                  <i class="fas fa-exclamation-circle"></i>
+                  <i class="fas fa-check-circle"></i>
+                  <small>Mensagem de erro</small> 
+                </div>
+
+                <button type="submit">Enviar</button>
+
+              </form>
+            </div>
+          </div>
+        </div>  
+    </div>
+
+    <div class="modal-bg">
+      <div class="modal">
+        <h2>Cadastre-se</h2>
+        <label for="name">Nome: </label>
+        <input type="text" name="nome-r">
+        <label for="email-r">Email: </label>
+        <input type="email" name="email-r">
+        <label for="Senha:">Senha: </label>
+        <input type="password" name="senha-r">
+        <button id="registro-btn">Enviar</button>
+        <span class="modal-close">X</span>
+      </div>
+    </div>
+  </body>
+</html>        
